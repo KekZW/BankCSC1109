@@ -1,10 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
+//creditcard insurance security
 public class Bank {
-    private Customer Customer;
-    private Account Account;
+    private String bankName;
+    private int branchId;
+    private List<Account> accounts;
 
-    //when checking password of user input and account, maybe can use hash to compare?
-    //We can send a hash value to and from to compare to can unload to see?
-
-    //String myStr = "Hello";
-    //System.out.println(myStr.hashCode());
 }
+
