@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
+    //customerID can be used for userID?
     private int customerID;
     private String firstName;
     private String lastName;
